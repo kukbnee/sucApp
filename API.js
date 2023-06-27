@@ -1,7 +1,8 @@
 //제조사 리스트
 'http://api.encar.com/search/car/list/general?count=true&q=(And.Hidden.N._.CarType.Y.)&inav=|Metadata|Sort'
 iNav.Nodes[1].Facets[0].Refinements.Nodes[0].Facets[i].Value
-                                    
+
+'https://api.encar.com/search/car/list/mobile?count=true&q=(And.Hidden.N._.(C.CarType.Y._.Manufacturer.현대.))&inav=|Metadata|Sort'                                 
 'http://api.encar.com/search/car/list/general?count=true&q=(And.Hidden.N._.(C.CarType.Y._.Manufacturer.현대.))&inav=|Metadata|Sort'
 iNav.Nodes[1].Facets[0].Refinements.Nodes[0].Facets[i].Refinements.Nodes[0].Facets[i].Value
                                               제조사                           차종
@@ -9,7 +10,8 @@ iNav.Nodes[1].Facets[0].Refinements.Nodes[0].Facets[i].Refinements.Nodes[0].Face
 'http://api.encar.com/search/car/list/general?count=true&q=(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.기아._.(C.ModelGroup.레이._.Model.더+뉴+레이.))))&inav=|Metadata|Sort'
 //차량 리스트
 'http://api.encar.com/search/car/list/premium?count=true&q=(And.Hidden.N._.(C.CarType.Y._.(C.Manufacturer.현대._.(C.ModelGroup.쏘나타._.Model.LF+쏘나타.))))&sr=|ModifiedDate|0|20'
-{
+
+var jsonDt = {
   "Count": 1045,
   "SearchResults": [
       {
